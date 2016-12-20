@@ -1,0 +1,6 @@
+.idea
+*.swap
+.DS_Store
+*.swp
+.*
+!.git*

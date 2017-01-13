@@ -1,13 +1,16 @@
 package app;
 
+import java.util.ArrayList;
+
 /**
  * Created by keitamiya on 2016/12/20.
  */
 public class Space {
-    private Float width;
-    private Float height;
+    public Double width;
+    public Double height;
+    public ArrayList agents;
 
-    public Space(Float w, Float h) {
+    public Space(Double w, Double h) {
         this.width = w;
         this.height = h;
     }
